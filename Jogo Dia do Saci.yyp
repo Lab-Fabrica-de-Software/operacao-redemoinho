@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,12 +35,21 @@
   },
   "name":"Jogo Dia do Saci",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"objBotao","path":"objects/objBotao/objBotao.yy",},},
+    {"id":{"name":"objGame1","path":"objects/objGame1/objGame1.yy",},},
+    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
+    {"id":{"name":"mainGame","path":"rooms/mainGame/mainGame.yy",},},
+    {"id":{"name":"minigame1","path":"rooms/minigame1/minigame1.yy",},},
+    {"id":{"name":"sprBotao","path":"sprites/sprBotao/sprBotao.yy",},},
+    {"id":{"name":"sprGame1","path":"sprites/sprGame1/sprGame1.yy",},},
+    {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
+    {"id":{"name":"srpChao","path":"sprites/srpChao/srpChao.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"mainGame","path":"rooms/mainGame/mainGame.yy",},},
+    {"roomId":{"name":"minigame1","path":"rooms/minigame1/minigame1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
