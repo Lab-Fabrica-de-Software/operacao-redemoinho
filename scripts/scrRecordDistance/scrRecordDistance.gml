@@ -2,8 +2,6 @@ function scrRecordDistance(){
 	if( global.distance > global.furthest_distance){
 		global.furthest_distance = global.distance;
 		global.furthest_x = x;
-		global.furthest_y = y;
-		
-	}
-	
+		global.furthest_y = y;	
+	}	
 }

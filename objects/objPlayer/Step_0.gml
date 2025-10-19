@@ -1,4 +1,3 @@
-
 if (global.game_over) exit;
 
 var isClickMove = false;
@@ -11,6 +10,7 @@ if (global.mazeDone) {
 	        target_x = device_mouse_x(0);
 	        target_y = device_mouse_y(0);
 	    }	
+
 	}else{
 		target_x = device_mouse_x(0);
 		target_y = device_mouse_y(0);
@@ -45,5 +45,3 @@ if (point_distance(x, y, global.goal_x, global.goal_y) < global.tile_size / 2) {
     show_message("Você venceu!");
     room_restart();
 }
-
-
