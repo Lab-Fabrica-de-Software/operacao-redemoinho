@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"sprSaci",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":7,
-  "bbox_left":1,
-  "bbox_right":6,
+  "bbox_left":0,
+  "bbox_right":7,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
