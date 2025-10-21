@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprGame1",
-    "path":"sprites/sprGame1/sprGame1.yy",
+    "name":"sprCarrocaMiniGame",
+    "path":"sprites/sprCarrocaMiniGame/sprCarrocaMiniGame.yy",
   },
   "spriteMaskId":null,
   "visible":true,
