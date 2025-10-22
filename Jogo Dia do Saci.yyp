@@ -19,6 +19,7 @@
     {"$GMFolder":"","%Name":"Fontes","folderPath":"folders/Fontes.yy","name":"Fontes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy","name":"Linhas do tempo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"AzedaLeite","folderPath":"folders/Objetos/AzedaLeite.yy","name":"AzedaLeite","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequências","folderPath":"folders/Sequências.yy","name":"Sequências","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,7 +37,7 @@
   "name":"Jogo Dia do Saci",
   "resources":[
     {"id":{"name":"objMaze","path":"objects/objMaze/objMaze.yy",},},
-    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
+    {"id":{"name":"objPlayerMini","path":"objects/objPlayerMini/objPlayerMini.yy",},},
     {"id":{"name":"RoomAzedeLeite","path":"rooms/RoomAzedeLeite/RoomAzedeLeite.yy",},},
     {"id":{"name":"scrDrawMaze","path":"scripts/scrDrawMaze/scrDrawMaze.yy",},},
     {"id":{"name":"scrRecordDistance","path":"scripts/scrRecordDistance/scrRecordDistance.yy",},},

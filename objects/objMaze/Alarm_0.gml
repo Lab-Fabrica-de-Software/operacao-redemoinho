@@ -1,3 +1,3 @@
-if (instance_exists(objPlayer)) {
-    with (objPlayer) event_user(0);
+if (instance_exists(objPlayerMini)) {
+    with (objPlayerMini) event_user(0);
 }

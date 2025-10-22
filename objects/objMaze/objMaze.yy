@@ -12,8 +12,8 @@
   "name":"objMaze",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"AzedaLeite",
+    "path":"folders/Objetos/AzedaLeite.yy",
   },
   "parentObjectId":null,
   "persistent":false,
