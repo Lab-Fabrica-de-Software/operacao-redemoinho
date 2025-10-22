@@ -1,3 +1,14 @@
+if (variable_global_exists("minigame_return_room")) {
+    if (global.minigame_return_room == room) {
+		
+        x = global.minigame_return_x;
+        y = global.minigame_return_y;
+		
+		target_x = x;
+target_y = y;
+    }
+}
+
 // Velocidade de movimento
 move_speed = 10;
 
