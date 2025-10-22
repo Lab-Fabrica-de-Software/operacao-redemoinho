@@ -16,6 +16,3 @@ if (dist > move_speed) {
 	 x = next_x;
 	 y = next_y;
 }
-
-global.playerX = x;
-global.playerY = y;

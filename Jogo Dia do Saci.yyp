@@ -36,12 +36,15 @@
   "name":"Jogo Dia do Saci",
   "resources":[
     {"id":{"name":"objBotao","path":"objects/objBotao/objBotao.yy",},},
+    {"id":{"name":"objController","path":"objects/objController/objController.yy",},},
     {"id":{"name":"objGame1","path":"objects/objGame1/objGame1.yy",},},
+    {"id":{"name":"objGameParent","path":"objects/objGameParent/objGameParent.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"mainGame","path":"rooms/mainGame/mainGame.yy",},},
-    {"id":{"name":"minigame1","path":"rooms/minigame1/minigame1.yy",},},
+    {"id":{"name":"rmGame1","path":"rooms/rmGame1/rmGame1.yy",},},
     {"id":{"name":"sprBotao","path":"sprites/sprBotao/sprBotao.yy",},},
     {"id":{"name":"sprGame1","path":"sprites/sprGame1/sprGame1.yy",},},
+    {"id":{"name":"sprGame1Done","path":"sprites/sprGame1Done/sprGame1Done.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"srpChao","path":"sprites/srpChao/srpChao.yy",},},
   ],
@@ -49,7 +52,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"mainGame","path":"rooms/mainGame/mainGame.yy",},},
-    {"roomId":{"name":"minigame1","path":"rooms/minigame1/minigame1.yy",},},
+    {"roomId":{"name":"rmGame1","path":"rooms/rmGame1/rmGame1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
