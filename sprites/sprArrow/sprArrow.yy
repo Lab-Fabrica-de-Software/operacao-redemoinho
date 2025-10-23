@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"sprArrow",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":9,
   "bbox_left":0,
   "bbox_right":17,
@@ -23,7 +23,7 @@
   ],
   "name":"sprArrow",
   "nineSlice":null,
-  "origin":3,
+  "origin":9,
   "parent":{
     "name":"Placeholder",
     "path":"folders/Sprites/Placeholder.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":4,
     "yorigin":5,
   },
   "swatchColours":null,
