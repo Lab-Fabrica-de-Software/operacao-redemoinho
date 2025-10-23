@@ -10,7 +10,7 @@ target_y = y;
 }
 
 // Velocidade de movimento
-move_speed = 10;
+move_speed = 4;
 
 // Posição alvo (ponto para onde o player vai andar)
 target_x = x;
