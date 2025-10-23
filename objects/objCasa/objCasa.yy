@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objGame2",
+  "%Name":"objCasa",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objGame2",
+  "name":"objCasa",
   "overriddenProperties":[],
   "parent":{
     "name":"Games",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprCarrocaMiniGame",
-    "path":"sprites/sprCarrocaMiniGame/sprCarrocaMiniGame.yy",
+    "name":"sprCasa",
+    "path":"sprites/sprCasa/sprCasa.yy",
   },
   "spriteMaskId":null,
   "visible":true,

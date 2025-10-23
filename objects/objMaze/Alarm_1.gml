@@ -7,6 +7,6 @@ if (global.time_left > 0) {
     show_debug_message("Tempo esgotado! Você perdeu.");
    
    global.game_over = true;
-
+ room_goto(mainGame);
    // room_restart();
 }
