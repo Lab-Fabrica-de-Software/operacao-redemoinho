@@ -1,5 +1,16 @@
+if (variable_global_exists("minigame_return_room")) {
+    if (global.minigame_return_room == room) {
+		
+        x = global.minigame_return_x;
+        y = global.minigame_return_y;
+		
+		target_x = x;
+target_y = y;
+    }
+}
+
 // Velocidade de movimento
-move_speed = 10;
+move_speed = 4;
 
 // Posição alvo (ponto para onde o player vai andar)
 target_x = x;
