@@ -22,7 +22,7 @@ function addFeno() {
 
 			// Retorna para a room principal
 			
-			room_goto(mainGame);
+			room_goto(mainGame_1);
 			
 
            break;

@@ -43,5 +43,5 @@ if (global.mazeDone) {
 if (point_distance(x, y, global.goal_x, global.goal_y) < global.tile_size / 2) {
     global.game_over = true;
     show_message("Você venceu!");
-    room_goto(mainGame);
+    room_goto(mainGame_1);
 }
