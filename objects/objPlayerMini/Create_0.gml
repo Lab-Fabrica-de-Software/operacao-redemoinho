@@ -1,6 +1,6 @@
-var size_scale = (1 / 12) * global.tile_size;
-image_xscale = size_scale;
-image_yscale = size_scale;
+var size_scale = (1 / 48) * global.tile_size;
+image_xscale = size_scale-0.1;
+image_yscale = size_scale-0.1;
 
 
 speed = 0;

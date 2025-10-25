@@ -10,17 +10,23 @@ if (canGo) {
 			if (camCtrl != noone && !camCtrl.animando) {
 				switch(image_angle){
 				case 0:
-				  
+				  //direita
+				  objPlayer.moveTo(180,0);
 					camCtrl.moveCameraHorizontal(1);
 				break
 				case 90:
-					
+					//cima
+					objPlayer.moveTo(0,180);
 					camCtrl.moveCameraVertical(0);
 				break
 				case 180:
+				//esquerda
+				objPlayer.moveTo(-180,0);
 					camCtrl.moveCameraHorizontal(0);
 				break
 				case 270:
+				objPlayer.moveTo(0,-180);
+				//baixo
 					camCtrl.moveCameraVertical(1);
 				break 
 				}

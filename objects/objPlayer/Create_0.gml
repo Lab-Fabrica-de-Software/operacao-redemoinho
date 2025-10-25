@@ -21,3 +21,9 @@ target_object = noone;
 
 // Distância mínima para considerar que chegou
 target_tolerance = 4;
+
+
+function moveTo(toX,toY){
+	target_x = x + toX;
+	target_y = y +toY;
+}
