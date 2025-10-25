@@ -26,7 +26,7 @@ global.goal_x = room_width / random_range(minParam,maxParam);
 global.goal_y = room_height / random_range(minParam,maxParam);
 }
 // escala baseada no tile_size
-var size_scale = (1 / 12) * global.tile_size;
+var size_scale = (1 / 48) * global.tile_size;
 image_xscale = size_scale;
 image_yscale = size_scale;
 
