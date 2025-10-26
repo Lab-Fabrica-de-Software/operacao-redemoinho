@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"objArrow",
+  "%Name":"objArrow2_2",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objArrow",
+  "name":"objArrow2_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Arrows",
     "path":"folders/Objetos/Games/Arrows.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objArrow",
+    "path":"objects/objArrow/objArrow.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

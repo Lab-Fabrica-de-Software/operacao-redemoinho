@@ -1,5 +1,3 @@
-
-
 if (qte_ativo) {
     // Mover ponteiro
     ponteiro_x += ponteiro_vel * direcao;

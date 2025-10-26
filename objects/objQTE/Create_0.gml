@@ -1,12 +1,11 @@
-
 // Status geral
 ativo = true;
 
 // Área e barra
 barra_x = x;
 barra_y = y;
-barra_largura = 200;
-barra_altura = 20;
+barra_largura = 100;
+barra_altura = 10;
 
 // Função para criar zona verde aleatória
 function gerar_zona_verde() {
