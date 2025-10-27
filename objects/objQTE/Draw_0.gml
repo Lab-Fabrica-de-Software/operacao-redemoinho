@@ -3,7 +3,7 @@ draw_sprite(sprQteBorda, 0, barra_x + barra_largura / 2, barra_y + barra_altura 
 
 /*
 caso a resolução da borda for diferente
-draw_sprite_ext(spr_qte_borda, 0, barra_x + barra_largura / 2, barra_y + barra_altura / 2, 1.2, 1.2, 0, c_white, 1);
+draw_sprite_ext(sprQteBorda, 0, barra_x + barra_largura / 2, barra_y + barra_altura / 2, 1.2, 1.2, 0, c_white, 1);
 */
 
 // Fundo da barra
