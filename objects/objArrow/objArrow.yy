@@ -10,8 +10,8 @@
   "name":"objArrow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Games",
-    "path":"folders/Objetos/Games.yy",
+    "name":"Arrows",
+    "path":"folders/Objetos/Games/Arrows.yy",
   },
   "parentObjectId":null,
   "persistent":false,

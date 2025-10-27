@@ -5,7 +5,9 @@ if (variable_global_exists("minigame_return_room")) {
         y = global.minigame_return_y;
 		
 		target_x = x;
-target_y = y;
+		target_y = y;
+		var camCtrl = instance_find(objCameraController, 0);
+		camCtrl.moveCameraTo(global.current_section);
     }
 }
 
