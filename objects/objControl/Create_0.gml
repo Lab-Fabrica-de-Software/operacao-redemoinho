@@ -3,7 +3,6 @@ tempo_proxima_ventania = irandom_range(90, 180); // frames até próxima ventani
 tempo_ventania = 0;
 roupas_restantes = 5; // quantidade de roupas a jogar
 jogo_terminou = false;
-resultado = ""; // "vitoria" ou "derrota"
-
+perto_do_varal = false;
 global.control = id;
 pode_jogar = true;

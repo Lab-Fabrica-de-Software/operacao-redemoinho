@@ -27,13 +27,13 @@ if (keyboard_check(vk_escape)) {
 }
 
 
-if (isRunning) {
+if (global.isRunning) {
     var bar_w = display_get_gui_width();
     var bar_h = 20; // um pouco maior pra caber o texto
     var bar_y = 0;
 
     // Progresso (0 a 1)
-    var progress = global.gametimer / 300;
+    var progress = global.gametimer / gameoverTime;
     if (progress < 0) progress = 0;
 
     // Fundo da barra

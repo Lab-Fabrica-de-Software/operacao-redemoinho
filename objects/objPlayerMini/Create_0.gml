@@ -1,4 +1,6 @@
-var size_scale = (1 / 48) * global.tile_size;
+if( object_exists(objMaze)) maze = objMaze;
+
+var size_scale = (1 / 48) * maze.tile_size;
 image_xscale = size_scale-0.1;
 image_yscale = size_scale-0.1;
 

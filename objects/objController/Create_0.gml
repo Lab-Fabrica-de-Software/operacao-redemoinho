@@ -3,6 +3,8 @@ global.minigame_return_x = 64;
 global.minigame_return_y = 480;
 global.minigame_return_room = mainGame;
 global.minigames_done = 0;
+total_minigames = 4
+
 global.current_section = "2_1";
 // Mapa de minigames jogados
 if (!variable_global_exists("played_minigames")) {
@@ -17,9 +19,8 @@ global.timer = 0
 global.playerName = "";
 global.score =0;
 
-
-isRunning = true;
-gameoverTime = 300;
+global.isRunning = false;
+gameoverTime = 200;
 global.gametimer = gameoverTime;
 
 reset_timer = 0;

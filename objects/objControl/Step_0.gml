@@ -17,7 +17,7 @@ if (!jogo_terminou) {
 }
 else {
     // Se terminou, aguarda uns segundos e volta pro mapa
-    alarm[0] = room_speed * 2;
+    //alarm[0] = room_speed * 2;
 }
 
 // Verifica se está perto do varal

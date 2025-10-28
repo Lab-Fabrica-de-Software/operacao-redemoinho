@@ -1,4 +1,3 @@
-// Status geral
 ativo = true;
 
 // Área e barra
@@ -30,7 +29,7 @@ erros = 0;
 erros_max = 5;
 
 // Tempo limite (fixo, 60 FPS)
-tempo_max = 60 * 2; // 2 segundos
+tempo_max = 120; // 2 segundos
 tempo_atual = tempo_max;
 
 

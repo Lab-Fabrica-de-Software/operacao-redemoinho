@@ -31,14 +31,10 @@ if (qte_ativo) {
             if (acertos >= necessarios) {
                 resultado = "vitória!";
                 qte_ativo = false;
-					// Marca o minigame como jogado
-	ds_map_add(global.played_minigames, global.current_minigame, true);
-
-	// Retorna para a room principal
-	if(room_exists(global.minigame_return_room)){
-		room_goto(global.minigame_return_room);
-	}
-
+				ds_map_add(global.played_minigames, global.current_minigame, "win");
+				global.score += 50;
+				global.minigames_done +=1;
+				room_goto(mainGame);
             }
         } else {
             resultado = "erro!";
@@ -54,13 +50,7 @@ if (qte_ativo) {
     if (erros >= erros_max) {
         resultado = "derrota!";
         qte_ativo = false;
-  	// Marca o minigame como jogado
-	ds_map_add(global.played_minigames, global.current_minigame, true);
-
-	// Retorna para a room principal
-	if(room_exists(global.minigame_return_room)){
-		room_goto(global.minigame_return_room);
-	}
-
+	  	ds_map_add(global.played_minigames, global.current_minigame, "lose");
+		room_goto(mainGame);
     }
 }

@@ -1,8 +1,8 @@
-if (global.game_over) exit;
+if (maze.game_over) exit;
 
 var isClickMove = false;
 
-if (global.mazeDone) {
+if (maze.mazeDone) {
 	
 	if(isClickMove){
 	    // Atualiza destino quando clicar
@@ -26,8 +26,8 @@ if (global.mazeDone) {
         var next_y = y + lengthdir_y(move_speed, dir);
 
         // Checa se pode andar (em cima do labirinto)
-        if (surface_exists(global.maze_surface)) {
-            var color = surface_getpixel(global.maze_surface, next_x, next_y);
+        if (surface_exists(maze.maze_surface)) {
+            var color = surface_getpixel(maze.maze_surface, next_x, next_y);
 
             if (color != c_black) {
                 x = next_x;
@@ -40,8 +40,10 @@ if (global.mazeDone) {
 
 
 // verifica vitória (distância até o X)
-if (point_distance(x, y, global.goal_x, global.goal_y) < global.tile_size / 2) {
-    global.game_over = true;
-    show_message("Você venceu!");
-    room_goto(mainGame);
+if (point_distance(x, y, maze.goal_x, maze.goal_y) < maze.tile_size / 2) {
+    maze.game_over = true;
+    ds_map_add(global.played_minigames, global.current_minigame, "win");
+	global.score += 100;
+	global.minigames_done +=1;
+	room_goto(mainGame);
 }
