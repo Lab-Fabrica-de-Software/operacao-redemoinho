@@ -8,7 +8,7 @@ if (canGo) {
 
 			// Muda para o próximo quadro
 			if (camCtrl != noone && !camCtrl.animando) {
-				objPlayer.moveTo(returnX,returnY);
+				objPlayer.moveTo(returnX, returnY);
 				camCtrl.moveCameraTo(section);			
 			}
 		}

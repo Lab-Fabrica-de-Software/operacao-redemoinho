@@ -1,9 +1,9 @@
 // Dados globais
-global.minigame_return_x = 0;
-global.minigame_return_y = 0;
+global.minigame_return_x = 64;
+global.minigame_return_y = 480;
 global.minigame_return_room = mainGame;
-
-global.current_section = "";
+global.minigames_done = 0;
+global.current_section = "2_1";
 // Mapa de minigames jogados
 if (!variable_global_exists("played_minigames")) {
     global.played_minigames = ds_map_create();
@@ -12,15 +12,15 @@ if (!variable_global_exists("played_minigames")) {
 // Qual minigame está ativo
 global.current_minigame = "";
 
-// Tamanho base do jogo (igual à sua tela principal)
-global.base_w = 480;
-global.base_h = 270;
+//player
+global.timer = 0
+global.playerName = "";
+global.score =0;
 
-// Redimensiona a surface do jogo
-surface_resize(application_surface, global.base_w, global.base_h);
 
-// Ajusta o GUI para o mesmo tamanho
-display_set_gui_maximize(global.base_w, global.base_h);
+isRunning = true;
+gameoverTime = 300;
+global.gametimer = gameoverTime;
 
-// Desativa suavização de textura (evita borrado em pixel art)
-gpu_set_texfilter(false);
+reset_timer = 0;
+reset_hold_time = 2; // tempo em segundos
