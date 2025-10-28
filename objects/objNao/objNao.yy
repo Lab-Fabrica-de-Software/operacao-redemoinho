@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objBotao",
+  "%Name":"objNao",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objBotao",
+  "name":"objNao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objetos/Menu.yy",
+    "name":"Botões",
+    "path":"folders/Objetos/Menu/Botões.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBotao",
-    "path":"sprites/sprBotao/sprBotao.yy",
+    "name":"sprBotaoNao",
+    "path":"sprites/sprBotaoNao/sprBotaoNao.yy",
   },
   "spriteMaskId":null,
   "visible":true,

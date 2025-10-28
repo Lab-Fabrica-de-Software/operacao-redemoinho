@@ -1,11 +1,22 @@
 // Segurar ESC com tempo real (independente do FPS)
 if (keyboard_check(vk_escape)) {
-    esc_timer += delta_time / 1000000; // converte microssegundos → segundos
-    if (esc_timer >= esc_hold_time) {
+    reset_timer += delta_time / 1000000; // converte microssegundos → segundos
+    if (reset_timer >= reset_hold_time) {
       
-        esc_timer = 0;
+        reset_timer = 0;
 		game_restart();
     }
 } else {
-    esc_timer = 0; // Soltou a tecla → zera
+    reset_timer = 0; // Soltou a tecla → zera
 }
+
+if(isRunning){
+	 global.gametimer -= delta_time / 1000000; // converte microssegundos → segundos
+    if (global.gametimer <= 0) {
+      
+        global.gametimer = 0;
+		game_restart();
+    }
+	
+}
+
