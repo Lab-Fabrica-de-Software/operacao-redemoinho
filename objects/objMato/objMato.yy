@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Grama",
-    "path":"sprites/Grama/Grama.yy",
+    "name":"sprMoita",
+    "path":"sprites/sprMoita/sprMoita.yy",
   },
   "spriteMaskId":null,
   "visible":true,
