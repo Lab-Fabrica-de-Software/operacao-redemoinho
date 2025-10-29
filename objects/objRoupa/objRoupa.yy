@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite33",
-    "path":"sprites/Sprite33/Sprite33.yy",
+    "name":"sprRoupa1",
+    "path":"sprites/sprRoupa1/sprRoupa1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
