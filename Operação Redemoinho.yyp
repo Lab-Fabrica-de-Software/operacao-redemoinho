@@ -188,8 +188,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Score","path":"rooms/Score/Score.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Score","path":"rooms/Score/Score.yy",},},
     {"roomId":{"name":"RoomJogueRoupa","path":"rooms/RoomJogueRoupa/RoomJogueRoupa.yy",},},
     {"roomId":{"name":"RoomAzedeLeite","path":"rooms/RoomAzedeLeite/RoomAzedeLeite.yy",},},
     {"roomId":{"name":"mainGame","path":"rooms/mainGame/mainGame.yy",},},

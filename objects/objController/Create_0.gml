@@ -15,13 +15,12 @@ if (!variable_global_exists("played_minigames")) {
 global.current_minigame = "";
 
 //player
-global.timer = 0
+global.time = 0;
 global.playerName = "";
 global.score =0;
-
 global.isRunning = false;
-gameoverTime = 200;
-global.gametimer = gameoverTime;
+global.gameoverTime = 200;
+global.gametimer = global.gameoverTime;
 
 reset_timer = 0;
 reset_hold_time = 2; // tempo em segundos

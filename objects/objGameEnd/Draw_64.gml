@@ -11,8 +11,8 @@ draw_set_color(c_white);
 draw_text(gui_w/2, gui_h/2 - 100, "Fim do Jogo");
 
 // Tempo
-var minutos = floor(global.gametimer div 60);
-var segundos = floor(global.gametimer mod 60);
+var minutos = floor(global.time div 60);
+var segundos = floor(global.time mod 60);
 var tempo_texto = string_format(minutos, 2, 0) + ":" + string_format(segundos, 2, 0);
 
 	

@@ -33,7 +33,7 @@ if (global.isRunning) {
     var bar_y = 0;
 
     // Progresso (0 a 1)
-    var progress = global.gametimer / gameoverTime;
+    var progress = global.gametimer / global.gameoverTime;
     if (progress < 0) progress = 0;
 
     // Fundo da barra
