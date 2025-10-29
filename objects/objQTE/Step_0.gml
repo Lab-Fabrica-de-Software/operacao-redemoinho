@@ -29,6 +29,7 @@ if (qte_ativo) {
             tempo_atual = tempo_max; // reinicia tempo
 
             if (acertos >= necessarios) {
+				
                 resultado = "vitória!";
                 qte_ativo = false;
 				ds_map_add(global.played_minigames, global.current_minigame, "win");
