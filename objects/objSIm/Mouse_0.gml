@@ -1,1 +1,3 @@
-room_goto(EnviarScore)
+
+alarm[0] = 30;
+sprite_index = sprBotaoSimApertado

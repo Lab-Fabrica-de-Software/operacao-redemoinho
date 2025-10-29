@@ -1,1 +1,3 @@
-game_end(0);
+
+alarm[0] = 30;
+sprite_index = sprBotaoSimApertado
