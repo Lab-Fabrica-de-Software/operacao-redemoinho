@@ -1,38 +1,36 @@
-global.tile_size = 40;
-global.border_size = 5; // ← quantidade de tiles de borda
-global.taxaCurva = 5;
+tile_size = 40;
+border_size = 5; // ← quantidade de tiles de borda
+taxaCurva = 5;
 
-global.furthest_x =0;
-global.furthest_y =0;
+furthest_x =0;
+furthest_y =0;
 
-global.furthest_distance = 0;
-global.distance =0;
+furthest_distance = 0;
+distance =0;
 
 
 
 
 randomize();
 
-var maxParam =(10-global.border_size );
-var minParam =(1.1+global.border_size );
+var maxParam =(10-border_size );
+var minParam =(1.1+border_size );
+
 if(minParam > maxParam){
-
-global.goal_x = room_width / 2;
-global.goal_y = room_height /2;
-
+	goal_x = room_width / 2;
+	goal_y = room_height /2;
 }else{
-
-global.goal_x = room_width / random_range(minParam,maxParam);
-global.goal_y = room_height / random_range(minParam,maxParam);
+	goal_x = room_width / random_range(minParam,maxParam);
+	goal_y = room_height / random_range(minParam,maxParam);
 }
 // escala baseada no tile_size
-var size_scale = (1 / 48) * global.tile_size;
+var size_scale = (1 / 48) * tile_size;
 image_xscale = size_scale;
 image_yscale = size_scale;
 
 // posição inicial (centro)
-x = global.goal_x;
-y = global.goal_y;
+x = goal_x;
+y = goal_y;
 
 // direção inicial
 randomize();
@@ -47,15 +45,19 @@ draw_clear_alpha(c_black, 0);
 surface_reset_target();
 
 // cria grid
-global.grid_w = room_width div global.tile_size;
-global.grid_h = room_height div global.tile_size;
-global.maze_grid = ds_grid_create(global.grid_w, global.grid_h);
-ds_grid_clear(global.maze_grid, 0);
+grid_w = room_width div tile_size;
+grid_h = room_height div tile_size;
+maze_grid = ds_grid_create(grid_w, grid_h);
+ds_grid_clear(maze_grid, 0);
 
 // marca posição inicial
-var gx = x div global.tile_size;
-var gy = y div global.tile_size;
-global.maze_grid[# gx, gy] = 1;
+var gx = x div tile_size;
+var gy = y div tile_size;
+maze_grid[# gx, gy] = 1;
+
+
+
+
 
 // inicia geração
 drawMaze();
@@ -66,15 +68,81 @@ image_angle = 0;
 
 alarm[0] =1;
 
-global.maze_surface = surface_stamp;
-global.mazeDone = true;
-
-
+maze_surface = surface_stamp;
+mazeDone = true;
 
 // tempo limite em segundos
-global.time_limit = 60;
-global.time_left = global.time_limit;
-global.game_over = false;
+time_limit = 60;
+time_left = time_limit;
+game_over = false;
 
 // configura o temporizador (1 segundo por vez)
 alarm[1] = game_get_speed(gamespeed_fps);
+
+function drawMaze() {
+    if (surface_exists(surface_stamp)) {
+        surface_set_target(surface_stamp);
+        draw_sprite_ext(sprCorridor, 0, x, y, image_xscale, image_yscale, direction, c_white, 1);
+        surface_reset_target();
+    }
+
+    x += lengthdir_x(tile_size, direction);
+    y += lengthdir_y(tile_size, direction);
+	distance += 1;	
+	scrRecordDistance();
+
+    var gx = x div tile_size;
+    var gy = y div tile_size;
+
+    // checa se está dentro dos limites considerando a borda
+    if (gx < border_size || gy < border_size ||
+        gx >= grid_w - border_size || gy >= grid_h - border_size)
+        return;
+
+    // se já visitado, volta
+    if (maze_grid[# gx, gy] == 1)
+        return;
+
+    maze_grid[# gx, gy] = 1;
+
+    tryDirections(direction);
+
+    // volta posição
+    x -= lengthdir_x(tile_size, direction);
+    y -= lengthdir_y(tile_size, direction);
+	distance -= 1;
+}
+
+function scrRecordDistance(){
+	if( distance > furthest_distance){
+		furthest_distance = distance;
+		furthest_x = x;
+		furthest_y = y;	
+	}	
+}
+
+function tryDirections(start_direction) {
+	if(irandom_range(1,taxaCurva) == 1 ){
+		direction = start_direction + (90 * irandom_range(-1, 1));
+	}
+	
+    for (var i = 0; i < 4; i++) {
+        var nx = x + lengthdir_x(tile_size, direction);
+        var ny = y + lengthdir_y(tile_size, direction);
+
+        var gx = nx div tile_size;
+        var gy = ny div tile_size;
+
+        if (gx >= border_size 
+		&& gy >= border_size 
+		&& gx < grid_w - border_size
+		&& gy < grid_h - border_size) {
+
+            if (maze_grid[# gx, gy] == 0) {
+                drawMaze();
+            }
+        }
+        direction += 90;
+    }
+    direction = start_direction;
+}

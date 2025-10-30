@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprQteBorda",
-    "path":"sprites/sprQteBorda/sprQteBorda.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

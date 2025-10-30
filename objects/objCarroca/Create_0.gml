@@ -3,4 +3,4 @@ minigame_id = "carroca";    // exemplo: "game1"
 target_room = RoomFeno; // exemplo: rmGame1
 return_offset_x = 16; // onde o player reaparece ao voltar
 return_offset_y = 0;
-activate_distance = 32;
+activate_distance = 45;

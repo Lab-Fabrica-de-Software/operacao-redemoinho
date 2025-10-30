@@ -1,11 +1,10 @@
-// Status geral
 ativo = true;
 
 // Área e barra
 barra_x = x;
 barra_y = y;
-barra_largura = 100;
-barra_altura = 10;
+barra_largura = 194;
+barra_altura = 20 ;
 
 // Função para criar zona verde aleatória
 function gerar_zona_verde() {
@@ -30,7 +29,7 @@ erros = 0;
 erros_max = 5;
 
 // Tempo limite (fixo, 60 FPS)
-tempo_max = 60 * 2; // 2 segundos
+tempo_max = 120; // 2 segundos
 tempo_atual = tempo_max;
 
 
