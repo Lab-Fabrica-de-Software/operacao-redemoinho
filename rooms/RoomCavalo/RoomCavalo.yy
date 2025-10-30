@@ -9,6 +9,7 @@
     {"name":"inst_7F6C9938","path":"rooms/RoomCavalo/RoomCavalo.yy",},
     {"name":"inst_565BAF02","path":"rooms/RoomCavalo/RoomCavalo.yy",},
     {"name":"inst_3B8644B1","path":"rooms/RoomCavalo/RoomCavalo.yy",},
+    {"name":"inst_2CBEBA26","path":"rooms/RoomCavalo/RoomCavalo.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +17,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7F6C9938","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F6C9938","objectId":{"name":"objQTE","path":"objects/objQTE/objQTE.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.6124402,"scaleY":2.142857,"x":639.1938,"y":640.0,},
         {"$GMRInstance":"v2","%Name":"inst_565BAF02","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_565BAF02","objectId":{"name":"objQTE_UI","path":"objects/objQTE_UI/objQTE_UI.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":128.0,},
         {"$GMRInstance":"v2","%Name":"inst_3B8644B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":4,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B8644B1","objectId":{"name":"objRabo","path":"objects/objRabo/objRabo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.210867,"scaleY":5.2108665,"x":736.0,"y":192.0,},
+        {"$GMRInstance":"v2","%Name":"inst_2CBEBA26","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CBEBA26","objectId":{"name":"objModaCavalo","path":"objects/objModaCavalo/objModaCavalo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5CF863EC","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5CF863EC","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":20.0,"scaleY":20.0,"spriteId":{"name":"sprFeno","path":"sprites/sprFeno/sprFeno.yy",},"x":-832.0,"y":800.0,},

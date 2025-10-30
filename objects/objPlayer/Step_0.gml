@@ -1,3 +1,4 @@
+if(global.isRunning){
 // Atualiza destino quando clicar
 if (mouse_check_button_pressed(mb_left)) {
     target_x = device_mouse_x(0);
@@ -26,4 +27,5 @@ if (dist > target_tolerance) {
     if (!place_meeting(x, next_y, objCollision)) {
         y = next_y;
     }
+}
 }

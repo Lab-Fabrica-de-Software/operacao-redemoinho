@@ -28,6 +28,7 @@
     {"name":"inst_2453BF2","path":"rooms/RoomJogueRoupa/RoomJogueRoupa.yy",},
     {"name":"inst_70143FEA","path":"rooms/RoomJogueRoupa/RoomJogueRoupa.yy",},
     {"name":"inst_1DB63463","path":"rooms/RoomJogueRoupa/RoomJogueRoupa.yy",},
+    {"name":"inst_A1162A","path":"rooms/RoomJogueRoupa/RoomJogueRoupa.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,6 +55,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7CBDF268","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CBDF268","objectId":{"name":"objMato","path":"objects/objMato/objMato.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":288.0,},
         {"$GMRInstance":"v2","%Name":"inst_2453BF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2453BF2","objectId":{"name":"objFazendeiro","path":"objects/objFazendeiro/objFazendeiro.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":352.0,},
         {"$GMRInstance":"v2","%Name":"inst_1DB63463","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DB63463","objectId":{"name":"objRoupa","path":"objects/objRoupa/objRoupa.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":288.0,"y":64.0,},
+        {"$GMRInstance":"v2","%Name":"inst_A1162A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A1162A","objectId":{"name":"objModalJogueRoupa","path":"objects/objModalJogueRoupa/objModalJogueRoupa.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_379ABD29","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_379ABD29","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"spriteId":{"name":"sprVaralGame","path":"sprites/sprVaralGame/sprVaralGame.yy",},"x":224.0,"y":192.0,},
