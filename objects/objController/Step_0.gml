@@ -13,14 +13,14 @@ if (keyboard_check(vk_escape) && room != Menu) {
 if(global.isRunning){
 	 global.gametimer -= delta_time / 1000000; // converte microssegundos → segundos
     if (global.gametimer <= 0) {
-			global.isRunning = false;
+		global.isRunning = false;
 		room_goto(Score);
 	
     }	
 }
 
 if(ds_map_size(global.played_minigames) >= total_minigames && room == mainGame){
-		global.isRunning = false;
+	global.isRunning = false;
 	room_goto(Score);
 
 }
