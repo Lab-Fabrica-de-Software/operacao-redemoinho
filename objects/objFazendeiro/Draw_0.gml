@@ -1,1 +1,1 @@
-draw_sprite(sprCavalo, 0, x, y);
+draw_sprite(sprFazendeiro, 0, x, y);

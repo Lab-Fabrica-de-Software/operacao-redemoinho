@@ -1,5 +1,5 @@
 // Mostra a barra de progresso quando ESC está sendo segurado
-if (keyboard_check(vk_escape)) {
+if (keyboard_check(vk_escape)&& global.isRunning) {
     var gui_w = display_get_gui_width();
     var gui_h = display_get_gui_height();
 
@@ -33,7 +33,7 @@ if (global.isRunning) {
     var bar_y = 0;
 
     // Progresso (0 a 1)
-    var progress = global.gametimer / gameoverTime;
+    var progress = global.gametimer / global.gameoverTime;
     if (progress < 0) progress = 0;
 
     // Fundo da barra
@@ -56,4 +56,8 @@ if (global.isRunning) {
     draw_set_font(fnt_ui); // opcional, se você tiver uma fonte própria
 
     draw_text(bar_w / 2, bar_y + bar_h / 2, tempo_texto);
+}
+
+if (global.api_error) {
+	draw_text(apiError.x, apiError.y, global.api_message)
 }

@@ -1,4 +1,4 @@
-if (!jogo_terminou) {
+if (!jogo_terminou && global.isRunning) {
 
     if (!ventando) {
         tempo_proxima_ventania--;

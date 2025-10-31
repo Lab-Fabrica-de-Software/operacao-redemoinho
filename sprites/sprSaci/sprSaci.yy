@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Placeholder",
-    "path":"folders/Sprites/Placeholder.yy",
+    "name":"Azedar o Leite",
+    "path":"folders/Sprites/Minigame/Azedar o Leite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

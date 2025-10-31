@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Placeholder",
-    "path":"folders/Sprites/Placeholder.yy",
+    "name":"Azedar o Leite",
+    "path":"folders/Sprites/Minigame/Azedar o Leite.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

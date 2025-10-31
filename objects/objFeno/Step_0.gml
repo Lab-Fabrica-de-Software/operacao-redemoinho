@@ -1,5 +1,5 @@
 // Arrastando o feno
-if (mouse_check_button(mb_left)) {
+if (mouse_check_button(mb_left) && global.isRunning) {
     if (dragging) {
         x = mouse_x + offset_x;
         y = mouse_y + offset_y;

@@ -25,12 +25,11 @@ qte_ativo = true;
 resultado = "none";
 acertos = 0;
 necessarios = 4;
-erros = 0;
+erros = -1;
 erros_max = 5;
 
 // Tempo limite (fixo, 60 FPS)
 tempo_max = 120; // 2 segundos
 tempo_atual = tempo_max;
-
 
 rabo = objRabo;

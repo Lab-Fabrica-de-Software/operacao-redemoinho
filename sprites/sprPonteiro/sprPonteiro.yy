@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Placeholder",
-    "path":"folders/Sprites/Placeholder.yy",
+    "name":"AmarrarRaboCavalo",
+    "path":"folders/Sprites/Minigame/AmarrarRaboCavalo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

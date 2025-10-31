@@ -1,7 +1,4 @@
-if(feno_count >= numMaxFenos){
-	ds_map_add(global.played_minigames, global.current_minigame, "win");
-	global.score += 20;
-	global.minigames_done +=1;
-	room_goto(mainGame);
+if (feno_count >= numMaxFenos && global.isRunning) {
+    global.isRunning = false; // pausa o jogo
+    instance_create_layer(0, 0, "GUI", objModalVitoria_Feno);
 }
-

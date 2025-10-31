@@ -1,0 +1,1 @@
+image_index = objQTE_Circular_2.acertos;

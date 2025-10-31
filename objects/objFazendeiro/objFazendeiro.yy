@@ -9,8 +9,8 @@
   "name":"objFazendeiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"JogueRoupa",
-    "path":"folders/Objetos/JogueRoupa.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
