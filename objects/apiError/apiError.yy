@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objEnviar",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"apiError",
+  "eventList":[],
   "managed":true,
-  "name":"objEnviar",
+  "name":"apiError",
   "overriddenProperties":[],
   "parent":{
-    "name":"Botões",
-    "path":"folders/Objetos/Menu/Botões.yy",
+    "name":"Menu",
+    "path":"folders/Objetos/Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprBotaoSim",
-    "path":"sprites/sprBotaoSim/sprBotaoSim.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

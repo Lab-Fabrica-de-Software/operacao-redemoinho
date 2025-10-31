@@ -67,6 +67,7 @@
   "resources":[
     {"id":{"name":"fnt_input","path":"fonts/fnt_input/fnt_input.yy",},},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
+    {"id":{"name":"apiError","path":"objects/apiError/apiError.yy",},},
     {"id":{"name":"objArrow","path":"objects/objArrow/objArrow.yy",},},
     {"id":{"name":"objArrow1_1","path":"objects/objArrow1_1/objArrow1_1.yy",},},
     {"id":{"name":"objArrow1_2","path":"objects/objArrow1_2/objArrow1_2.yy",},},

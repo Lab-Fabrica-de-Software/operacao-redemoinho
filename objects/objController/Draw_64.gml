@@ -57,3 +57,7 @@ if (global.isRunning) {
 
     draw_text(bar_w / 2, bar_y + bar_h / 2, tempo_texto);
 }
+
+if (global.api_error) {
+	draw_text(apiError.x, apiError.y, global.api_message)
+}
