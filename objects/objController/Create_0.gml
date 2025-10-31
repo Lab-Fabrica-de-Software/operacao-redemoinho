@@ -3,7 +3,7 @@ global.minigame_return_x = 64;
 global.minigame_return_y = 480;
 global.minigame_return_room = mainGame;
 global.minigames_done = 0;
-global.total_minigames = 5;
+global.total_minigames = 6;
 
 global.current_section = "2_1";
 // Mapa de minigames jogados
