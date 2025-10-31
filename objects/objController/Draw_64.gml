@@ -1,5 +1,5 @@
 // Mostra a barra de progresso quando ESC está sendo segurado
-if (keyboard_check(vk_escape)) {
+if (keyboard_check(vk_escape)&& global.isRunning) {
     var gui_w = display_get_gui_width();
     var gui_h = display_get_gui_height();
 

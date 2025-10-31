@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Teste",
-    "path":"sprites/Teste/Teste.yy",
+    "name":"sprRelogio",
+    "path":"sprites/sprRelogio/sprRelogio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

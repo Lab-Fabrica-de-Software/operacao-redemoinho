@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlayer",
-    "path":"sprites/sprPlayer/sprPlayer.yy",
+    "name":"sprFazendeiro",
+    "path":"sprites/sprFazendeiro/sprFazendeiro.yy",
   },
   "spriteMaskId":null,
   "visible":true,

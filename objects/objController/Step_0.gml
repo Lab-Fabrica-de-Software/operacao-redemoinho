@@ -19,7 +19,7 @@ if(global.isRunning){
     }	
 }
 
-if(ds_map_size(global.played_minigames) >= total_minigames && room == mainGame){
+if(ds_map_size(global.played_minigames) >= global.total_minigames && room == mainGame){
 	global.isRunning = false;
 	room_goto(Score);
 

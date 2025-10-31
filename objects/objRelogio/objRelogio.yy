@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ponteiro",
-    "path":"sprites/ponteiro/ponteiro.yy",
+    "name":"sprRelogioPonteiro",
+    "path":"sprites/sprRelogioPonteiro/sprRelogioPonteiro.yy",
   },
   "spriteMaskId":null,
   "visible":true,

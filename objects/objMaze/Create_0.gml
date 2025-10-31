@@ -9,8 +9,6 @@ furthest_distance = 0;
 distance =0;
 
 
-
-
 randomize();
 
 var maxParam =(10-border_size );
@@ -55,10 +53,6 @@ var gx = x div tile_size;
 var gy = y div tile_size;
 maze_grid[# gx, gy] = 1;
 
-
-
-
-
 // inicia geração
 drawMaze();
 
@@ -76,8 +70,6 @@ time_limit = 60;
 time_left = time_limit;
 game_over = false;
 
-// configura o temporizador (1 segundo por vez)
-alarm[1] = game_get_speed(gamespeed_fps);
 
 function drawMaze() {
     if (surface_exists(surface_stamp)) {

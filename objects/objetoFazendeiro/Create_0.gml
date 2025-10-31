@@ -12,6 +12,6 @@ y = room_height / 2;
 velocidade = -8;
 
 // Volta ao quarto após 4 segundos
-alarm[0] = room_speed * 4;
+alarm[0] = game_get_speed * 4; 
 
 show_debug_message("O fazendeiro apareceu do lado direito!");

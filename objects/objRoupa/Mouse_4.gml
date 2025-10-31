@@ -1,5 +1,5 @@
 // Só funciona se o jogo ainda não acabou
-if (!objControl.jogo_terminou) {
+if (!objControl.jogo_terminou && global.isRunning) {
 
     // Caso o jogador clique durante o vento → DERROTA
     if (objControl.ventando) {

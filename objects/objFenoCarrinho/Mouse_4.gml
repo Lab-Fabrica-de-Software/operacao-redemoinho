@@ -1,4 +1,4 @@
-if (can_pick) {
+if (can_pick && global.isRunning) {
     // cria o objeto arrastável
     var feno = instance_create_layer(mouse_x, mouse_y, "Instances", objFeno);
 

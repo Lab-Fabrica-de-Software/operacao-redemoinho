@@ -11,8 +11,8 @@
   "name":"objModalParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objetos/UI.yy",
+    "name":"Modal",
+    "path":"folders/Objetos/Menu/Modal.yy",
   },
   "parentObjectId":null,
   "persistent":false,

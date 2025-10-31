@@ -1,5 +1,5 @@
 if (variable_global_exists("minigame_return_room")) {
-    if (global.minigame_return_room == room) {
+    if (global.minigame_return_room == mainGame && room == mainGame) {
 		
         x = global.minigame_return_x;
         y = global.minigame_return_y;
