@@ -11,7 +11,8 @@ if (keyboard_check(vk_escape) && room != Menu) {
 }
 
 if(global.isRunning){
-	 global.gametimer -= delta_time / 1000000; // converte microssegundos → segundos
+	global.time += delta_time/ 1000000;
+	global.gametimer -= delta_time / 1000000; // converte microssegundos → segundos
     if (global.gametimer <= 0) {
 		global.isRunning = false;
 		room_goto(Score);
