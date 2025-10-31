@@ -6,3 +6,8 @@ finalizado = false;
 
 // Contador de tempo
 tempo_inicio = current_time;
+
+
+tempo= 0; 
+tempo_total = 8;
+isVitoria = false;
