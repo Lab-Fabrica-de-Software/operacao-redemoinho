@@ -142,6 +142,7 @@
     {"id":{"name":"Bedroom","path":"sprites/Bedroom/Bedroom.yy",},},
     {"id":{"name":"Collision","path":"sprites/Collision/Collision.yy",},},
     {"id":{"name":"geral","path":"sprites/geral/geral.yy",},},
+    {"id":{"name":"minigamealert","path":"sprites/minigamealert/minigamealert.yy",},},
     {"id":{"name":"sprArrow","path":"sprites/sprArrow/sprArrow.yy",},},
     {"id":{"name":"sprBotao","path":"sprites/sprBotao/sprBotao.yy",},},
     {"id":{"name":"sprBotaoApertado","path":"sprites/sprBotaoApertado/sprBotaoApertado.yy",},},
