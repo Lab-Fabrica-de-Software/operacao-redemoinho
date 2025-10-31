@@ -19,12 +19,11 @@ if (girando) {
     var novo_angulo = point_direction(x, y, mouse_x, mouse_y);
     var diferenca = angle_difference(novo_angulo, angulo_anterior);
 
-    // Atualiza apenas o ponteiro (não o relógio inteiro)
     image_angle += diferenca; // rotaciona visualmente o ponteiro
     angulo_anterior = novo_angulo;
 
     // Incremento moderado de progresso
-    var incremento = abs(diferenca) / 6; // valor reduzido para evitar vitória instantânea
+    var incremento = abs(diferenca) / 35; // valor reduzido para evitar vitória instantânea
 
     with (objControlador) {
         progresso = clamp(progresso + incremento, 0, 100);

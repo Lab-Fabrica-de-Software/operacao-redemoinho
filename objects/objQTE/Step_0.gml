@@ -1,4 +1,5 @@
-if (qte_ativo && global.isRunning) {
+if (global.isRunning) {
+	if(qte_ativo){
     // Mover ponteiro
     ponteiro_x += ponteiro_vel * direcao;
 
@@ -31,10 +32,7 @@ if (qte_ativo && global.isRunning) {
             if (acertos >= necessarios) {
                 resultado = "vitória!";
                 qte_ativo = false;
-				ds_map_add(global.played_minigames, global.current_minigame, "win");
-				global.score += 50;
-				global.minigames_done +=1;
-				room_goto(mainGame);
+				 instance_create_layer(0, 0, "GUI", objModalVitoria);
             }
         } else {
             resultado = "erro!";
@@ -50,7 +48,19 @@ if (qte_ativo && global.isRunning) {
     if (erros >= erros_max) {
         resultado = "derrota!";
         qte_ativo = false;
+		 instance_create_layer(0, 0, "GUI", objModalDerrota);
+    }
+}else{
+	 if (acertos >= necessarios) {
+             				ds_map_add(global.played_minigames, global.current_minigame, "win");
+				global.score += 50;
+				global.minigames_done +=1;
+				room_goto(mainGame);
+        }else if (erros >= erros_max) {
+        
+      
 	  	ds_map_add(global.played_minigames, global.current_minigame, "lose");
 		room_goto(mainGame);
     }
-}else exit
+}
+}

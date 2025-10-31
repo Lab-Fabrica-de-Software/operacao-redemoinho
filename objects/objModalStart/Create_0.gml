@@ -7,7 +7,7 @@ lifetime = 5;
 timer = 0;
 
 // Texto a exibir
-modal_text = "Você é o Saci e sua missão é bagunçar a fazenda! Use o botão direito do mouse para se mover e causar confusão!";
+modal_text = "Você é o Saci e sua missão é bagunçar a fazenda! Use o botão esquerdo do mouse para se mover e causar confusão!";
 
 // Posição e tamanho desejado (pode mudar externamente)
 modal_x = display_get_gui_width() / 2;
