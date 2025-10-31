@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Placeholder",
-    "path":"folders/Sprites/Placeholder.yy",
+    "name":"Espantalho",
+    "path":"folders/Sprites/Minigame/Espantalho.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

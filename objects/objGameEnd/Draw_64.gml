@@ -22,6 +22,6 @@ draw_text(gui_w/2, gui_h/2 - 40, "Tempo: " + tempo_texto);
 draw_text(gui_w/2, gui_h/2 + 10, "Pontuação: " + string(global.score));
 
 // Número de minigames concluídos
-draw_text(gui_w/2, gui_h/2 + 60, "Minigames feitos: " + string(global.minigames_done));
+draw_text(gui_w/2, gui_h/2 + 60, "Minigames feitos: " + string(global.minigames_done)+"/"+string(global.total_minigames));
 // Número de minigames concluídos
 draw_text(gui_w/2, gui_h/2 + 110, "Deseja enviar sua pontuação para o ranking?");

@@ -1,4 +1,4 @@
-if (qte_ativo) {
+if (qte_ativo && global.isRunning) {
     // Mover ponteiro
     ponteiro_x += ponteiro_vel * direcao;
 
@@ -29,7 +29,6 @@ if (qte_ativo) {
             tempo_atual = tempo_max; // reinicia tempo
 
             if (acertos >= necessarios) {
-				
                 resultado = "vitória!";
                 qte_ativo = false;
 				ds_map_add(global.played_minigames, global.current_minigame, "win");
@@ -54,4 +53,4 @@ if (qte_ativo) {
 	  	ds_map_add(global.played_minigames, global.current_minigame, "lose");
 		room_goto(mainGame);
     }
-}
+}else exit

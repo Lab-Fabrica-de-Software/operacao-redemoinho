@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Placeholder",
-    "path":"folders/Sprites/Placeholder.yy",
+    "name":"JogueRoupa",
+    "path":"folders/Sprites/Minigame/JogueRoupa.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
