@@ -113,6 +113,7 @@
     {"id":{"name":"objNao","path":"objects/objNao/objNao.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"objPlayerMini","path":"objects/objPlayerMini/objPlayerMini.yy",},},
+    {"id":{"name":"objQTE_Circular_2","path":"objects/objQTE_Circular_2/objQTE_Circular_2.yy",},},
     {"id":{"name":"objQTE_Circular","path":"objects/objQTE_Circular/objQTE_Circular.yy",},},
     {"id":{"name":"objQTE_UI","path":"objects/objQTE_UI/objQTE_UI.yy",},},
     {"id":{"name":"objQTE","path":"objects/objQTE/objQTE.yy",},},

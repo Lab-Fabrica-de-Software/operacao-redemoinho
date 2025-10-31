@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objRabo",
+  "%Name":"objQTE_Circular_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objRabo",
+  "name":"objQTE_Circular_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Cavalo",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprRabo",
-    "path":"sprites/sprRabo/sprRabo.yy",
+    "name":"sprQteBase",
+    "path":"sprites/sprQteBase/sprQteBase.yy",
   },
   "spriteMaskId":null,
   "visible":true,
