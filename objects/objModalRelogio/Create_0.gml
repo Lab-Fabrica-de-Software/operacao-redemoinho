@@ -3,7 +3,7 @@ lifetime = 5;
 timer = 0;
 
 // Texto a exibir
-modal_text = "Derrube o espantalho, aperte com o botão direito do mouse no tempo certo para derrubar.";
+modal_text = " Atrase o despertador, aperte com o botão direito do mouse para girar os ponteiros antes que alguem veja.";
 
 // Posição e tamanho desejado 
 modal_x = display_get_gui_width() / 2;

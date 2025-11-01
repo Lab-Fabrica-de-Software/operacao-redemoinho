@@ -3,7 +3,7 @@ lifetime = 5;
 timer = 0;
 
 // Texto a exibir
-modal_text = "Tire todos os fenos da carroça.";
+modal_text = "Tire todos os fenos da carroça. Coloque os fenos na pedra.";
 
 // Posição e tamanho desejado 
 modal_x = display_get_gui_width() / 2;

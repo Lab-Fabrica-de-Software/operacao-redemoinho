@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"Jogo Dia do Saci",
+  "%Name":"Operacao Redemoinho",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -63,7 +63,7 @@
   "MetaData":{
     "IDEVersion":"2024.13.1.193",
   },
-  "name":"Jogo Dia do Saci",
+  "name":"Operacao Redemoinho",
   "resources":[
     {"id":{"name":"fnt_input","path":"fonts/fnt_input/fnt_input.yy",},},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
